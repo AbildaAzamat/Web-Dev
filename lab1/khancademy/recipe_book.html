@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                background-color:orange;
+                color: orange;
+                margin: 0;
+                padding: 40px;
+            }
+            .container {
+                max-width: 800px;
+                background: white;
+                margin: auto;
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #2c3e50;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            h2 {
+                border-left: 5px solid #e67e22;
+                padding-left: 15px;
+                color: #d35400;
+                margin-top: 40px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px;
+                border-bottom: 1px solid #eee;
+                text-align: left;
+            }
+            th {
+                background-color: #fcf3cf;
+            }
+            .recipe-img {
+                width: 100%;
+                max-height: 400px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            a {
+                color: #2980b9;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .source {
+                font-size: 0.9em;
+                color: #7f8c8d;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div class="container">
+        <h1>Моя Книга Рецептов</h1>
+        
+        <h2>Оглавление</h2>
+        <ul>
+            <li><a href="#pizza">1. Итальянская Пицца «Маргарита»</a></li>
+            <li><a href="#pancakes">2. Золотистые Блины</a></li>
+            <li><a href="#salad">3. Классический Греческий Салат</a></li>
+        </ul>
+
+        <hr>
+
+        <div id="pizza">
+            <h2>Пицца «Маргарита»</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" class="recipe-img">
+            <p>Классика прямиком из Неаполя.</p>
+            <table>
+                <thead>
+                    <tr><th>Ингредиент</th><th>Количество</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Тесто</td><td>250 г</td></tr>
+                    <tr><td>Моцарелла</td><td>150 г</td></tr>
+                    <tr><td>Базилик</td><td>5-6 листков</td></tr>
+                </tbody>
+            </table>
+            <p><strong>Шаги:</strong> Раскатайте тесто, смажьте соусом, добавьте сыр и запекайте 10 минут при 250°C. Украсьте базиликом.</p>
+            <p class="source">Источник: <a href="https://ru.wikipedia.org/wiki/Маргарита_(пицца)">Википедия</a></p>
+        </div>
+
+        <div id="pancakes">
+            <h2>Золотистые Блины</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Thin_pancakes.jpg" class="recipe-img">
+            <p>Тонкие и нежные блины для завтрака.</p>
+            <table>
+                <thead>
+                    <tr><th>Ингредиент</th><th>Количество</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Молоко</td><td>500 мл</td></tr>
+                    <tr><td>Яйца</td><td>3 шт</td></tr>
+                    <tr><td>Мука</td><td>250 г</td></tr>
+                </tbody>
+            </table>
+            <p><strong>Шаги:</strong> Смешайте все ингредиенты до однородности. Выпекайте на разогретой сковороде по 1 минуте с каждой стороны.</p>
+            <p class="source">Источник: <a href="https://ru.wikipedia.org/wiki/Блины">Википедия</a></p>
+        </div>
+
+        <div id="salad">
+            <h2>Греческий Салат</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/G_Salad.jpg" class="recipe-img">
+            <p>Легкий салат с сыром Фета и овощами.</p>
+            <table>
+                <thead>
+                    <tr><th>Ингредиент</th><th>Количество</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Огурцы/Помидоры</td><td>по 2 шт</td></tr>
+                    <tr><td>Сыр Фета</td><td>100 г</td></tr>
+                    <tr><td>Оливки</td><td>10 шт</td></tr>
+                </tbody>
+            </table>
+            <p><strong>Шаги:</strong> Крупно нарежьте овощи, добавьте целые оливки и кубики сыра. Заправьте оливковым маслом.</p>
+            <p class="source">Источник: <a href="https://ru.wikipedia.org/wiki/Греческий_салат">Википедия</a></p>
+        </div>
+    </div>
+    
+    </body>
+</html>
