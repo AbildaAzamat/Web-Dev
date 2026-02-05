@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="auth-page">
+        <div class="auth-card">
+            <div class="auth-card__logo">
+                <img src="https://www.vectorlogo.zone/logos/instagram/instagram-wordmark.svg" alt="Instagram">
+            </div>
+
+            <form class="auth-form">
+                <div class="auth-form__field">
+                    <input type="text" placeholder="Телефон, имя пользователя или эл. адрес" required>
+                </div>
+                <div class="auth-form__field">
+                    <input type="password" placeholder="Пароль" required>
+                </div>
+                
+                <button type="submit" class="auth-form__submit">Войти</button>
+
+                <div class="auth-divider">
+                    <div class="auth-divider__line"></div>
+                    <span class="auth-divider__text">ИЛИ</span>
+                    <div class="auth-divider__line"></div>
+                </div>
+
+                <div class="auth-fb">
+                    <a href="#" class="auth-fb__link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/512px-Facebook_Logo_%282019%29.png" alt="FB">
+                        Войти через Facebook
+                    </a>
+                </div>
+
+                <a href="#" class="auth-card__forgot">Забыли пароль?</a>
+            </form>
+        </div>
+
+        <div class="redirect-card">
+            <p>У вас еще нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+        </div>
+
+        <div class="app-install">
+            <p>Установите приложение.</p>
+            <div class="app-install__buttons">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Yps_S57hRye.png" alt="App Store" height="40">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/H_9Z99v_69D.png" alt="Google Play" height="40">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
