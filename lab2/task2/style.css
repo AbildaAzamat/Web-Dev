@@ -29,7 +29,6 @@ body {
     gap: 10px;
 }
 
-/* Карточка входа */
 .auth-card {
     background: #fff;
     border: 1px solid var(--ig-border);
@@ -82,7 +81,6 @@ body {
     cursor: pointer;
 }
 
-/* Разделитель "ИЛИ" */
 .auth-divider {
     display: flex;
     align-items: center;
@@ -103,7 +101,6 @@ body {
     color: #8e8e8e;
 }
 
-/* Ссылки и FB */
 .auth-fb__link {
     display: flex;
     align-items: center;
@@ -127,7 +124,6 @@ body {
     text-align: center;
 }
 
-/* Нижняя карточка */
 .redirect-card {
     background: #fff;
     border: 1px solid var(--ig-border);
@@ -142,7 +138,6 @@ body {
     font-weight: 600;
 }
 
-/* Блок установки */
 .app-install {
     text-align: center;
     padding: 10px;
